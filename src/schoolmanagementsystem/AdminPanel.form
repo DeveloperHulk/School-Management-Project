@@ -25,31 +25,34 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="342" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace pref="327" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jButton1" min="-2" pref="315" max="-2" attributes="0"/>
-                      <EmptySpace min="567" pref="567" max="-2" attributes="0"/>
-                      <Component id="jButton2" min="-2" pref="315" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton1" min="-2" pref="315" max="-2" attributes="0"/>
+                              <EmptySpace min="567" pref="567" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" pref="315" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jButton5" min="-2" pref="315" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="567" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" pref="315" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jButton7" min="-2" pref="1197" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="369" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="498" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="351" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jButton5" min="-2" pref="315" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="567" max="-2" attributes="0"/>
-                      <Component id="jButton3" min="-2" pref="315" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jButton6" min="-2" pref="315" max="-2" attributes="0"/>
-                      <EmptySpace min="567" pref="567" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
                       <Component id="jButton4" min="-2" pref="315" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jButton7" min="-2" pref="1197" max="-2" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="369" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="498" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="751" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="336" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,12 +71,9 @@
                   <Component id="jButton5" alignment="3" min="-2" pref="84" max="-2" attributes="0"/>
                   <Component id="jButton3" alignment="3" min="-2" pref="84" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton4" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
-                  <Component id="jButton6" alignment="3" min="-2" pref="89" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+              <Component id="jButton4" min="-2" pref="89" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
               <Component id="jButton7" min="-2" pref="59" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -174,27 +174,13 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="jButton7">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/icons8_timetable_90px.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Time Table"/>
-        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-          <Color id="Hand Cursor"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="24" style="1"/>
+          <Image iconType="3" name="/images/icons8_shutdown_60px.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Exit"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">

@@ -64,7 +64,7 @@ public class FrontPage extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/School Management.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 40)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(204, 0, 0));
+        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Welcome To School Management System");
 
         jProgressBar1.setBackground(new java.awt.Color(255, 255, 255));
@@ -99,7 +99,7 @@ public class FrontPage extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(857, 616));
+        setSize(new java.awt.Dimension(853, 616));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

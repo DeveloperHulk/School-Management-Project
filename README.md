@@ -1,5 +1,5 @@
 # School Management System
-This is core java project. Performing many CURD operation in this project. This project help alot for School admin ..<br/>
+This is core java project.Managing thousands of student data and their fee is quite dificult for a school management so this project help to manage student as well as teachers and employee data also.Performing many CURD operation in this project. This project help alot for School admin ..<br/>
 
 
 > **Note**
@@ -12,7 +12,7 @@ This project is created by Rahul Choudhary.
 
 
 # Features
-+ Adding Student, Employee and Teacher or update theire records
++ Adding Student, Employee and Teacher or update theire records and Delete thier record also.
 + You can see the data in a single table format
 + UI is amazing so you can easily familiare with the software easily
 + Your data is Stored in Database
@@ -38,7 +38,7 @@ First Install netbeans and mysql (ENTER MYSQL PASSWORD:-root) on  your computer
 
    create database tables:
 
-   create table of Student, empoyee, Teacher and their fields as you an see in the project PPT.
+   create table of Student, empoyee, Teacher ,Teacher salary , Employee Salary , Fees and their attributs as you can see in the project Screenshot PPT.
 
 
 Netbeans
